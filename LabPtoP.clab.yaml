@@ -1,0 +1,1 @@
+name: Point_to_Pointtopology:  nodes:    spine1:      kind: nokia_srlinux      type: ixrd3      image: ghcr.io/nokia/srlinux    leaf1:      kind: nokia_srlinux      type: ixrd3      image: ghcr.io/nokia/srlinux  links:   # inter-switch links    - endpoints: [ "leaf1:ethernet-1/1", "spine1:ethernet-1/1" ]
